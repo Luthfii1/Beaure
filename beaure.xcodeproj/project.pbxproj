@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		DD6D33A72BBBC4EE00AE956A /* beaureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6D33A62BBBC4EE00AE956A /* beaureApp.swift */; };
-		DD6D33A92BBBC4EE00AE956A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6D33A82BBBC4EE00AE956A /* ContentView.swift */; };
 		DD6D33AB2BBBC4F000AE956A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6D33AA2BBBC4F000AE956A /* Assets.xcassets */; };
 		DD6D33AF2BBBC4F000AE956A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6D33AE2BBBC4F000AE956A /* Preview Assets.xcassets */; };
 		DD6D33B92BBBC4F000AE956A /* beaureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6D33B82BBBC4F000AE956A /* beaureTests.swift */; };
 		DD6D33C32BBBC4F000AE956A /* beaureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6D33C22BBBC4F000AE956A /* beaureUITests.swift */; };
 		DD6D33C52BBBC4F000AE956A /* beaureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6D33C42BBBC4F000AE956A /* beaureUITestsLaunchTests.swift */; };
+		DDC9FA682BBC382C00670466 /* TopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC9FA672BBC382C00670466 /* TopBar.swift */; };
+		DDC9FA6A2BBC41DB00670466 /* CardTitleAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC9FA692BBC41DB00670466 /* CardTitleAction.swift */; };
+		DDC9FA6C2BBC449300670466 /* CustomCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC9FA6B2BBC449300670466 /* CustomCorner.swift */; };
+		DDC9FA6F2BBC770C00670466 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC9FA6E2BBC770C00670466 /* Product.swift */; };
+		DDC9FA712BBC792700670466 /* CardProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC9FA702BBC792700670466 /* CardProduct.swift */; };
+		DDC9FA732BBC7C7D00670466 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC9FA722BBC7C7D00670466 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,6 @@
 /* Begin PBXFileReference section */
 		DD6D33A32BBBC4EE00AE956A /* beaure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beaure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6D33A62BBBC4EE00AE956A /* beaureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beaureApp.swift; sourceTree = "<group>"; };
-		DD6D33A82BBBC4EE00AE956A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DD6D33AA2BBBC4F000AE956A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD6D33AC2BBBC4F000AE956A /* beaure.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = beaure.entitlements; sourceTree = "<group>"; };
 		DD6D33AE2BBBC4F000AE956A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +49,12 @@
 		DD6D33BE2BBBC4F000AE956A /* beaureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = beaureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6D33C22BBBC4F000AE956A /* beaureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beaureUITests.swift; sourceTree = "<group>"; };
 		DD6D33C42BBBC4F000AE956A /* beaureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beaureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DDC9FA672BBC382C00670466 /* TopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBar.swift; sourceTree = "<group>"; };
+		DDC9FA692BBC41DB00670466 /* CardTitleAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTitleAction.swift; sourceTree = "<group>"; };
+		DDC9FA6B2BBC449300670466 /* CustomCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorner.swift; sourceTree = "<group>"; };
+		DDC9FA6E2BBC770C00670466 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		DDC9FA702BBC792700670466 /* CardProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProduct.swift; sourceTree = "<group>"; };
+		DDC9FA722BBC7C7D00670466 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +105,10 @@
 		DD6D33A52BBBC4EE00AE956A /* beaure */ = {
 			isa = PBXGroup;
 			children = (
+				DDC9FA6D2BBC76E400670466 /* Models */,
+				DDC9FA662BBC381800670466 /* Component */,
 				DD6D33A62BBBC4EE00AE956A /* beaureApp.swift */,
-				DD6D33A82BBBC4EE00AE956A /* ContentView.swift */,
+				DDC9FA612BBC2FA900670466 /* Pages */,
 				DD6D33AA2BBBC4F000AE956A /* Assets.xcassets */,
 				DD6D33AC2BBBC4F000AE956A /* beaure.entitlements */,
 				DD6D33AD2BBBC4F000AE956A /* Preview Content */,
@@ -127,6 +139,33 @@
 				DD6D33C42BBBC4F000AE956A /* beaureUITestsLaunchTests.swift */,
 			);
 			path = beaureUITests;
+			sourceTree = "<group>";
+		};
+		DDC9FA612BBC2FA900670466 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				DDC9FA722BBC7C7D00670466 /* HomeView.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		DDC9FA662BBC381800670466 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				DDC9FA672BBC382C00670466 /* TopBar.swift */,
+				DDC9FA692BBC41DB00670466 /* CardTitleAction.swift */,
+				DDC9FA6B2BBC449300670466 /* CustomCorner.swift */,
+				DDC9FA702BBC792700670466 /* CardProduct.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		DDC9FA6D2BBC76E400670466 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DDC9FA6E2BBC770C00670466 /* Product.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +298,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD6D33A92BBBC4EE00AE956A /* ContentView.swift in Sources */,
+				DDC9FA6F2BBC770C00670466 /* Product.swift in Sources */,
+				DDC9FA732BBC7C7D00670466 /* HomeView.swift in Sources */,
+				DDC9FA682BBC382C00670466 /* TopBar.swift in Sources */,
 				DD6D33A72BBBC4EE00AE956A /* beaureApp.swift in Sources */,
+				DDC9FA6C2BBC449300670466 /* CustomCorner.swift in Sources */,
+				DDC9FA6A2BBC41DB00670466 /* CardTitleAction.swift in Sources */,
+				DDC9FA712BBC792700670466 /* CardProduct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
