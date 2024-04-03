@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		237390322BBD0D10000FF1A2 /* On Boarding 1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237390312BBD0D10000FF1A2 /* On Boarding 1.swift */; };
+		237390362BBD183E000FF1A2 /* OnBoarding2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237390352BBD183E000FF1A2 /* OnBoarding2.swift */; };
+		237390382BBD18AD000FF1A2 /* OnBoarding3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237390372BBD18AD000FF1A2 /* OnBoarding3.swift */; };
+		2373903A2BBD1937000FF1A2 /* OnBoarding4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237390392BBD1937000FF1A2 /* OnBoarding4.swift */; };
 		DD21BC292BBCEA1A007B892F /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD21BC282BBCEA1A007B892F /* SearchBar.swift */; };
 		DD6D33A72BBBC4EE00AE956A /* beaureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6D33A62BBBC4EE00AE956A /* beaureApp.swift */; };
 		DD6D33AB2BBBC4F000AE956A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6D33AA2BBBC4F000AE956A /* Assets.xcassets */; };
@@ -41,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		237390312BBD0D10000FF1A2 /* On Boarding 1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "On Boarding 1.swift"; sourceTree = "<group>"; };
+		237390352BBD183E000FF1A2 /* OnBoarding2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding2.swift; sourceTree = "<group>"; };
+		237390372BBD18AD000FF1A2 /* OnBoarding3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding3.swift; sourceTree = "<group>"; };
+		237390392BBD1937000FF1A2 /* OnBoarding4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding4.swift; sourceTree = "<group>"; };
 		DD21BC282BBCEA1A007B892F /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		DD6D33A32BBBC4EE00AE956A /* beaure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beaure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6D33A62BBBC4EE00AE956A /* beaureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beaureApp.swift; sourceTree = "<group>"; };
@@ -149,6 +157,10 @@
 			isa = PBXGroup;
 			children = (
 				DDC9FA722BBC7C7D00670466 /* HomeView.swift */,
+				237390312BBD0D10000FF1A2 /* On Boarding 1.swift */,
+				237390352BBD183E000FF1A2 /* OnBoarding2.swift */,
+				237390372BBD18AD000FF1A2 /* OnBoarding3.swift */,
+				237390392BBD1937000FF1A2 /* OnBoarding4.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -308,8 +320,12 @@
 				DDC9FA6F2BBC770C00670466 /* Product.swift in Sources */,
 				DDC9FA732BBC7C7D00670466 /* HomeView.swift in Sources */,
 				DDC9FA682BBC382C00670466 /* TopBar.swift in Sources */,
+				237390322BBD0D10000FF1A2 /* On Boarding 1.swift in Sources */,
 				DD6D33A72BBBC4EE00AE956A /* beaureApp.swift in Sources */,
+				2373903A2BBD1937000FF1A2 /* OnBoarding4.swift in Sources */,
+				237390382BBD18AD000FF1A2 /* OnBoarding3.swift in Sources */,
 				DD21BC292BBCEA1A007B892F /* SearchBar.swift in Sources */,
+				237390362BBD183E000FF1A2 /* OnBoarding2.swift in Sources */,
 				DDC9FA6C2BBC449300670466 /* CustomCorner.swift in Sources */,
 				DDC9FA6A2BBC41DB00670466 /* CardTitleAction.swift in Sources */,
 				DDC9FA712BBC792700670466 /* CardProduct.swift in Sources */,
