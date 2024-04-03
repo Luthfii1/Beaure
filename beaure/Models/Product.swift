@@ -17,3 +17,10 @@ struct Product: Identifiable {
     var star: Double
     var sold: Double
 }
+
+struct ECommerce : Identifiable {
+    var id = UUID()
+    var name: String
+    var image: String
+    var voucher: Int
+}

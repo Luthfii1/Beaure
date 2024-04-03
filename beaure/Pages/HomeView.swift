@@ -16,12 +16,23 @@ struct HomeView: View {
         Product(name: "Skintific Repair Barrier Set Perawatan Kulit Kusam", image: "Product5", location: "Bogor", beforePrice: 320000, afterPrice: 120000, star: 5, sold: 10)
     ]
     
+    var store: [ECommerce] = [
+        ECommerce(name: "Shopee", image: "shopee", voucher: 20),
+        ECommerce(name: "Tokopedia", image: "tokopedia", voucher: 12),
+        ECommerce(name: "Tiktop Shop", image: "tiktokshop", voucher: 10),
+        ECommerce(name: "Sociolla", image: "sociolla", voucher: 24)
+    ]
+    
     var body: some View {
         NavigationStack {
             ScrollView {
                 LazyVStack(content: {
                     // ================= TOPBAR ==================
                     TopBar()
+                    // ===========================================
+                    
+                    // ================= Seach Bar ===============
+                    
                     // ===========================================
                     
                     // ================= TOPDEALS ================
@@ -41,7 +52,32 @@ struct HomeView: View {
                     // End of Top Deals Product
                     // ============================================
                     
+                    // ================= STORE ====================
+                    // E-commerce title
+                    CardTitleAction(title: "E-Commerce", showAll: false)
+                    // End of E-Commerce Title
                     
+                    // Store
+                    ScrollView(.horizontal, showsIndicators: false) {
+                        HStack(spacing: 10, content: {
+                            ForEach(store) { store in
+                                CardEcommerce(store: store)
+                            }
+                        })
+                        .padding(.bottom, 20)
+                    }
+                    // End of Store
+                    // ===========================================
+                    
+                    // =============== SAVED COMPARISON ==========
+                    // Saved Comparison Title
+                    CardTitleAction(title: "Saved Comparison")
+                    // End of Saved Comparison Title
+                    
+                    // Card Comparison
+                    
+                    // End of Card compariosn
+                    // ===========================================
                 })
             }
             .background(Color("Neutral"))
