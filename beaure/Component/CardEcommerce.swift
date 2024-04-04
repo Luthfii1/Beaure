@@ -16,17 +16,19 @@ struct CardEcommerce: View {
                 .resizable()
                 .aspectRatio(contentMode: .fill)
                 .background(Color.white)
-                .frame(width: 100, height: 100)
+                .frame(width: 85, height: 85)
                 .clipShape(Circle())
 
             
             Group{
                 Text(store.name)
+                    .foregroundStyle(.black)
                     .padding(.top, 10)
                     .bold()
+                    .font(.footnote)
                 
                 Text("\(store.voucher) vouchers")
-                    .font(.subheadline)
+                    .font(.caption)
                     .foregroundColor(.gray)
             }
             

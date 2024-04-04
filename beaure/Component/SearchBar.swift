@@ -8,33 +8,30 @@
 import SwiftUI
 
 struct SearchBar: View {
-    let names = ["Holly", "Josh", "Rhonda", "Ted"]
-    var pressed : Bool = false
-    @State private var searchText = ""
-    
     var body: some View {
-        NavigationView {
-            if pressed {
-                List {
-                    ForEach(searchResults, id: \.self) { name in
-                        NavigationLink {
-                            Text(name)
-                        } label: {
-                            Text(name)
-                        }
-                    }
-                }
-            }
+        HStack {
+            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                Image(systemName: "magnifyingglass")
+                
+                Text("Search your product")
+                    .font(.footnote)
+                    .fontWeight(.semibold)
+                    .foregroundStyle(.gray)
+                
+                Spacer()
+            })
+            .foregroundStyle(.black)
         }
-        .searchable(text: $searchText)
-    }
-    
-    var searchResults: [String] {
-        if searchText.isEmpty {
-            return names
-        } else {
-            return names.filter { $0.contains(searchText) }
+        .padding(10)
+        .background(Color("Neutral"))
+        .overlay {
+            Capsule()
+                .stroke(lineWidth: 2)
+                .foregroundStyle(Color(.systemGray4))
         }
+        .padding(.horizontal,2)
+        .padding(.bottom, 10)
+        .shadow(color: Color("SecondaryBlue").opacity(0.9), radius: 6, x: 4, y: 4)
     }
 }
 

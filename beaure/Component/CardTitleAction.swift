@@ -14,12 +14,15 @@ struct CardTitleAction: View {
     var body: some View {
         HStack {
             Text(title)
-                .font(.title2)
+                .foregroundStyle(.black)
+//                .font(.title2)
                 .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
             Spacer()
             if showAll {
-                Text("Show All")
-                    .foregroundStyle(.gray)
+                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                    Text("Show All")
+                        .foregroundStyle(.gray)
+                })
             }
         }
     }
