@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		DD21BC292BBCEA1A007B892F /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD21BC282BBCEA1A007B892F /* SearchBar.swift */; };
+		DD513AA62BBD8CAE00DCB18B /* DummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD513AA52BBD8CAE00DCB18B /* DummyData.swift */; };
+		DD513AAA2BBE373B00DCB18B /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD513AA92BBE373B00DCB18B /* SearchView.swift */; };
 		DD6D33A72BBBC4EE00AE956A /* beaureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6D33A62BBBC4EE00AE956A /* beaureApp.swift */; };
 		DD6D33AB2BBBC4F000AE956A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6D33AA2BBBC4F000AE956A /* Assets.xcassets */; };
 		DD6D33AF2BBBC4F000AE956A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6D33AE2BBBC4F000AE956A /* Preview Assets.xcassets */; };
@@ -17,10 +19,12 @@
 		DDC9FA682BBC382C00670466 /* TopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC9FA672BBC382C00670466 /* TopBar.swift */; };
 		DDC9FA6A2BBC41DB00670466 /* CardTitleAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC9FA692BBC41DB00670466 /* CardTitleAction.swift */; };
 		DDC9FA6C2BBC449300670466 /* CustomCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC9FA6B2BBC449300670466 /* CustomCorner.swift */; };
-		DDC9FA6F2BBC770C00670466 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC9FA6E2BBC770C00670466 /* Product.swift */; };
+		DDC9FA6F2BBC770C00670466 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC9FA6E2BBC770C00670466 /* ProductModel.swift */; };
 		DDC9FA712BBC792700670466 /* CardProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC9FA702BBC792700670466 /* CardProduct.swift */; };
 		DDC9FA732BBC7C7D00670466 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC9FA722BBC7C7D00670466 /* HomeView.swift */; };
 		DDC9FA752BBCDA2400670466 /* CardEcommerce.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC9FA742BBCDA2400670466 /* CardEcommerce.swift */; };
+		DDEDE9A52BBD0E4300E022AF /* SavedComparison.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEDE9A42BBD0E4300E022AF /* SavedComparison.swift */; };
+		DDEDE9A72BBD17CA00E022AF /* ComparisonProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEDE9A62BBD17CA00E022AF /* ComparisonProduct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,8 @@
 
 /* Begin PBXFileReference section */
 		DD21BC282BBCEA1A007B892F /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		DD513AA52BBD8CAE00DCB18B /* DummyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyData.swift; sourceTree = "<group>"; };
+		DD513AA92BBE373B00DCB18B /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		DD6D33A32BBBC4EE00AE956A /* beaure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beaure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD6D33A62BBBC4EE00AE956A /* beaureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beaureApp.swift; sourceTree = "<group>"; };
 		DD6D33AA2BBBC4F000AE956A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,10 +61,12 @@
 		DDC9FA672BBC382C00670466 /* TopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBar.swift; sourceTree = "<group>"; };
 		DDC9FA692BBC41DB00670466 /* CardTitleAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTitleAction.swift; sourceTree = "<group>"; };
 		DDC9FA6B2BBC449300670466 /* CustomCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorner.swift; sourceTree = "<group>"; };
-		DDC9FA6E2BBC770C00670466 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		DDC9FA6E2BBC770C00670466 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
 		DDC9FA702BBC792700670466 /* CardProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardProduct.swift; sourceTree = "<group>"; };
 		DDC9FA722BBC7C7D00670466 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		DDC9FA742BBCDA2400670466 /* CardEcommerce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardEcommerce.swift; sourceTree = "<group>"; };
+		DDEDE9A42BBD0E4300E022AF /* SavedComparison.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedComparison.swift; sourceTree = "<group>"; };
+		DDEDE9A62BBD17CA00E022AF /* ComparisonProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComparisonProduct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				DDC9FA722BBC7C7D00670466 /* HomeView.swift */,
+				DD513AA92BBE373B00DCB18B /* SearchView.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -162,6 +171,8 @@
 				DDC9FA702BBC792700670466 /* CardProduct.swift */,
 				DDC9FA742BBCDA2400670466 /* CardEcommerce.swift */,
 				DD21BC282BBCEA1A007B892F /* SearchBar.swift */,
+				DDEDE9A42BBD0E4300E022AF /* SavedComparison.swift */,
+				DDEDE9A62BBD17CA00E022AF /* ComparisonProduct.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -169,7 +180,8 @@
 		DDC9FA6D2BBC76E400670466 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				DDC9FA6E2BBC770C00670466 /* Product.swift */,
+				DDC9FA6E2BBC770C00670466 /* ProductModel.swift */,
+				DD513AA52BBD8CAE00DCB18B /* DummyData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -304,11 +316,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD513AA62BBD8CAE00DCB18B /* DummyData.swift in Sources */,
+				DDEDE9A52BBD0E4300E022AF /* SavedComparison.swift in Sources */,
 				DDC9FA752BBCDA2400670466 /* CardEcommerce.swift in Sources */,
-				DDC9FA6F2BBC770C00670466 /* Product.swift in Sources */,
+				DDEDE9A72BBD17CA00E022AF /* ComparisonProduct.swift in Sources */,
+				DDC9FA6F2BBC770C00670466 /* ProductModel.swift in Sources */,
 				DDC9FA732BBC7C7D00670466 /* HomeView.swift in Sources */,
 				DDC9FA682BBC382C00670466 /* TopBar.swift in Sources */,
 				DD6D33A72BBBC4EE00AE956A /* beaureApp.swift in Sources */,
+				DD513AAA2BBE373B00DCB18B /* SearchView.swift in Sources */,
 				DD21BC292BBCEA1A007B892F /* SearchBar.swift in Sources */,
 				DDC9FA6C2BBC449300670466 /* CustomCorner.swift in Sources */,
 				DDC9FA6A2BBC41DB00670466 /* CardTitleAction.swift in Sources */,
@@ -472,8 +488,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"beaure/Preview Content\"";
+				DEVELOPMENT_TEAM = XSHZNN2ULY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Beaure;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -508,8 +527,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"beaure/Preview Content\"";
+				DEVELOPMENT_TEAM = XSHZNN2ULY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Beaure;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
