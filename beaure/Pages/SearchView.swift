@@ -15,6 +15,7 @@ struct SearchView: View {
                 // Search Bar
                 SearchBar()
                 // End of Search Bar
+                // Tambah
                 
                 // Preference and Location
                 HStack (alignment: .top) {
