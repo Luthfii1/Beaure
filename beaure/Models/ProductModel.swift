@@ -16,6 +16,7 @@ struct Product: Identifiable {
     var afterPrice: Int
     var star: Double
     var sold: Double
+    var link: String
 }
 
 struct ECommerce : Identifiable {
@@ -23,4 +24,18 @@ struct ECommerce : Identifiable {
     var name: String
     var image: String
     var voucher: Int
+}
+
+struct CompareSingleProduct : Identifiable {
+    var id = UUID()
+    var image : String
+    var name : String
+    var price : Int
+}
+
+struct CompareProduct : Identifiable {
+    var id = UUID()
+    var Product1 : CompareSingleProduct
+    var Product2 : CompareSingleProduct
+    var Date : Date
 }
